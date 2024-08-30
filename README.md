@@ -13,3 +13,17 @@ since the RAG process can be very slow otherwise.
 You will also need to change how you install `llama-cpp-python` package depending on your OS and whether  
 you are planning on using a GPU or not.
 
+# TL;DR instructions
+
+1. Install llama-cpp-python
+2. Install langchain
+3. Install streamlit
+4. Install beautifulsoup
+5. Install PyMuPDF
+6. Install sentence-transformers
+7. Install docarray
+8. Install pydantic 1.10.8
+9. Download Mistral from HuggingFace from TheBloke's repo: mistral-7b-instruct-v0.1.Q5_0.gguf
+10. Place model file in the `models` subfolder
+11. Run streamlit
+
